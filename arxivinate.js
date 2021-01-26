@@ -27,10 +27,4 @@ function listInfo(){
   fetch(api_url)
 	.then(response => response.text())
 	.then(data => document.getElementById("responselist").innerHTML = parseArXivXML(parseXML(data)));
-//	.then(data => console.log(parseXML(data)));
-  /*var titleRE = new RegExp("\\n(.*?"+title+".*?)\\n","gi");
-  var response = abbrevlist.match(titleRE).join("<br />");
-      */
-  // document.getElementById("responselist").innerHTML = response;
-
 }
