@@ -103,8 +103,8 @@ blockquote p {
 
 /*blockquote{border-left-style:solid;border-left-width:1px;margin:0.9em 0;padding-left:0.9em; }*/
 body{font-size:95%;line-height:1.4;margin:0;}
-blockquote{font-family:'SEGOEUIL';font-size:12px;line-height:1;padding-top:0px}
-code,pre{font-family:'SEGOEUIL';font-size:12px;line-height:1.4; padding-top:1em;padding-bottom:1em}
+blockquote{font-family:monospace;font-size:12px;line-height:1;padding-top:0px}
+code,pre{font-family:monospace;font-size:12px;line-height:1.4; padding-top:1em;padding-bottom:1em}
 input{
     text-align:center;
 width: 100%;
@@ -285,6 +285,7 @@ a#explanation.hover {
 }
 
 #responselist {
+    user-select: all;
     width:80%;
     line-height:2;
 }
@@ -499,7 +500,7 @@ display:block;
 }
 
 #content .post_quote h1,#content .post_quote h2 {
-font-family:SEGOEUIL, sans-serif;
+font-family:monospace, sans-serif;
 font-size:2.2em;
 font-weight:400;
 line-height:1.2;
@@ -634,17 +635,11 @@ max-width:100%;
 
 body,input,#header h1,#header h2{
 
-font-family:'SEGOEUIL';
+font-family:monospace;
 font-weight:normal;
 
-}h1,h2,h3,h4,h5,h6{font-family: 'SEGOEUIL';}hr{background-color:#1b7850;}#content .post_answer p.question,#page.searchpage #header #search.zero form input[type="text"]{border-color:#1b7850;}#content .post.reblog .info a.permalink:before{content:"Reblogged ";} /* Booleans */ #header h1#title,#header h2#title{display:none;}#header #info{padding-top:0;}#page.permalinkpage #content ol#permalinkpagination{margin-top:0;}@media screen and (max-device-width: 480px){body{-webkit-text-size-adjust:100%;}}@font-face{ 
-            font-family: "SEGOEUIL";
-            src: url('http://www.fontsforweb.com/public/fonts/1409/SEGOEUIL.eot');
-            src: local("Segoe UI Light"), url('http://www.fontsforweb.com/public/fonts/1409/SEGOEUIL.woff') format("woff"), url('http://www.fontsforweb.com/public/fonts/1409/SEGOEUIL.ttf') format("truetype");
-        }
-        .fontsforweb_fontid_1409 {
-            font-family: "SEGOEUIL";
-        }
+}
+h1,h2,h3,h4,h5,h6{font-family: monospace;}hr{background-color:#1b7850;}#content .post_answer p.question,#page.searchpage #header #search.zero form input[type="text"]{border-color:#1b7850;}#content .post.reblog .info a.permalink:before{content:"Reblogged ";} /* Booleans */ #header h1#title,#header h2#title{display:none;}#header #info{padding-top:0;}#page.permalinkpage #content ol#permalinkpagination{margin-top:0;}@media screen and (max-device-width: 480px){body{-webkit-text-size-adjust:100%;}} 
 
 #github {
   position: absolute;
